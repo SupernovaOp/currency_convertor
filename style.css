@@ -1,0 +1,71 @@
+body,html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient( 68.6deg,  rgba(79,183,131,1) 14.4%, rgba(254,235,151,1) 92.7% );
+}
+input{
+  border-radius: 5px;
+  outline: thick double #32a1ce;
+  border: none;
+  padding: 5px;
+}
+.container{
+ 
+  padding: 10px;
+  width: 50%;
+  height: 80%;
+background: rgba(255, 255, 255, 0.14);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.2px);
+-webkit-backdrop-filter: blur(6.2px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.dropdown{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.msg{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: green;
+  transition: color 0.3s ease-in-out;
+  text-align: center;
+}
+button{
+  padding: 10px 20px;
+  background-color: #5ebd61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+  
+}
+.center{
+  margin: 0 auto;
+  display: block;
+}
+.amount{
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+h2{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.dropdown i{
+  font-size: 1.5rem;
+}
